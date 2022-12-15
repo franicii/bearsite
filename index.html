@@ -23,15 +23,9 @@
                     <li class="nav-item"><a class="nav-link mx-3" style="font-size: 15px;"  href="#about">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link mx-3" style="font-size: 15px;"  href="#contact">CONTACT</a></li>
                     <li class="nav-item"><a class="nav-link mx-3" style="font-size: 15px;" href="#services">SERVICES</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-3" style="font-size: 16px;" href="https://www.facebook.com/"target="_blank" rel="noopener noreferrer">
-                            <i class="fa fa-facebook-f" style="margin-right: 5px; font-size: 16px;"></i>
-                            <i class="fa fa-twitter mx-1" style=" font-size: 16px;" href="#"></i>
-                            <i class="fa fa-youtube-play mx-1" style=" font-size: 16px;" href="#"></i>
-                        </a>
-                    </li>
-
-                </ul>
+                    <li class="nav-item"><a class="nav-link" style="color: white; margin-right: 5px; font-size: 16px;" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white; margin-right: 5px; font-size: 16px;" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white; margin-right: 5px; font-size: 16px;" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
             </div>
             </div>
         </nav>
@@ -45,7 +39,7 @@
                 <p class="pHeader lead">Vestibulum tortor metus, eleifend vel dui vel, pharetra elementum dui.</p>
 
             <div class="btnc pt-4">
-            <button >CONTACT</button>
+            <a href="#contact"><button>CONTACT</button></a>
             </div>
             
             </div>
@@ -85,7 +79,7 @@
     <section id="contact">
         <div class="container py-5 px-5" style="background-color: #dde5e5">
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-7">
             <h2 class="fw-light">This is wrapped.</h2>
             <p class="lead"> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos. <br> <br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos. <br><br>
@@ -94,32 +88,33 @@
                 consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem</p>
         </div>
              
-        <div class="col-md-6 text-white h-100" style="background-color: #111111;">
-            <form class="my-5 mx-5">
-        <div class="form-group">
+        <div class="col-md-5 text-white h-100" style="background-color: #111111;">
+
+            <form class="my-5 mx-4">
+        <div class="form-group" style="margin-bottom: 20px;">
             <h2 class="formText text-center fw-light">Get in touch.</h2>
             <label for="exampleInputEmail1">Your name</label>
-            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="name" class="form-control rounded-0" required>
         </div>
-        <div class="form-group">
+        <div class="form-group" style="margin-bottom: 20px;">
             <label for="exampleInputPassword1">Your email</label>
-            <input type="password" class="form-control rounded-0" id="exampleInputPassword1" >
+            <input type="email" class="form-control rounded-0" required>
         </div>
         <div class="row g-2">
             <label for="exampleInputPassword1">Your Phone</label>
         <div class="col-sm-2">
-            <input type="text" class="form-control rounded-0" placeholder="Code" aria-label="City">
+            <input type="numeric" class="form-control rounded-0" placeholder="Code" required>
         </div>
         <div class="col-sm-10">
-            <input type="text" class="form-control rounded-0" placeholder="Phone" aria-label="State">
+            <input type="numeric" class="form-control rounded-0" placeholder="Phone" required>
         </div>
         </div>
                           
-        <div class="btns d-grid col-4 my-3">
-            <button class="btn btn-warning text-white rounded-0" type="button">SUBMIT</button>
+        <div class="btns d-grid col-4 my-3 py-2">
+            <button class="btn btn-warning text-white rounded-0" type="submit">SUBMIT</button>
         </div>
-
             </form>
+
         </div>
         </div> 
         </div> 
@@ -131,11 +126,11 @@
         <div class="row gx-4 text-white" style="font-size: 10px;">
         <div class="col">
             <a href="https://www.carlocab.com/" target="_blank" rel="noopener noreferrer"><img src="assets/img/codmlogo.jpg" alt=""></a>
-            <p >Copyright © 2017 Carl Ocab Internet Marketing Services • Privacy Policy • Contact Us </p>
+            <p> <br> Copyright © 2017 Carl Ocab Internet Marketing Services • Privacy Policy • <a href="#contact"> Contact Us</a> </p>
         </div>
         <div class="col">
             <p class="text-end"><br><br> 5 La Carlota St., Alabang Hills Village, Cupang, Muntinlupa 1771, Metro Manila, Philippines <br>
-                US: +1 (800) 765-2158 • Philippines: +63 (917) 833-960 </p>
+                <a href=“US: +1 (800) 765-2158” target="_blank"> US: +1 (800) 765-2158 • </a><a href=“Philippines: +63 (917) 833-960” target="_blank"> Philippines: +63 (917) 833-960</a> </p>
         </div>
         </div>
     </footer>

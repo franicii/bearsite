@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
-  color: #0a58ca;
+  color: grey;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3954,7 +3954,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: #171818;
 }
 .nav-link.disabled {
   color: #ffff;
@@ -3973,7 +3973,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0.25rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #171818 #171818 #171818;
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
@@ -11313,7 +11313,7 @@ section {
 
 .btnc button{
   height: 45px;
-  width: 250px;
+  width: 200px;
   font-size: 13px;
   font-weight: 300;
   background: #111111;
@@ -11328,10 +11328,10 @@ section {
 
 .btns button{
   height: 45px;
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 500;
   background: var(--bs-yellow);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .btns button:hover{
@@ -11352,6 +11352,12 @@ section {
 .leadA {
   font-size: 17px;
 }
+
+a.nav-link:hover {
+  background: #373b3e;
+}
+
+
 
 
 
